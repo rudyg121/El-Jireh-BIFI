@@ -6,10 +6,10 @@
 }
 
 /* Basic styling */
-body {
+body{
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
+    background-color: url("images/ip.jpg");
     margin: 20px;
 }
 
@@ -30,9 +30,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    
 }
 
 section {
@@ -60,4 +61,24 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Logo container styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 50%; /* Optional: Makes the logo circular */
+    border: 2px solid #fff;
+}
+
+.logo-container h1 {
+    font-size: 24px;
+    color: #ffcc00;
 }
